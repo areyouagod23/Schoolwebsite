@@ -1,0 +1,161 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ff4081; /* Pink */
+    color: #fff;
+  }
+  
+  nav ul li:nth-child(1) a {
+    background-color: #2979ff; /* Blue */
+    color: #fff;
+  }
+  
+  nav ul li:nth-child(2) a {
+    background-color: #ff6f00; /* Orange */
+    color: #fff;
+  }
+  
+  nav ul li:nth-child(3) a {
+    background-color: #64dd17; /* Green */
+    color: #fff;
+  }
+  
+  nav ul li:nth-child(4) a {
+    background-color: #9c27b0; /* Purple */
+    color: #fff;
+  }
+  
+  
+  
+  
+  #hero {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+  #featured-products {
+    padding: 50px;
+    text-align: center; /* Center the content */
+  }
+  
+  .product {
+    margin-bottom: 30px;
+  }
+  
+  .product img {
+    width: 100%;
+    max-width: 400px; /* Increase the maximum width of the image */
+    height: auto;
+    display: block; /* Ensures proper alignment */
+    margin: 0 auto; /* Centers the image horizontally */
+  }
+  
+  .product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .product p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  
+  .buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #555;
+  }
+  
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
